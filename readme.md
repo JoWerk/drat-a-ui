@@ -26,6 +26,9 @@ As a note I did also set this up to run in parallel and run in Firefox, Chormium
 - run `npx playwright test` to run the tests
 - if desired you can also run `npx playwright show-report` to show the detailed Playwright report for the tests
 
+FYI since there are quite a few pages and checks going on the tests can take upto or over 1 minute.  If it looks like nothing is happening there is something happening.  
+I could have added logging to show that it was going through it page but didn't want to spam the console.
+
 
 
 
